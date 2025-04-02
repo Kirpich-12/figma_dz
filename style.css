@@ -42,6 +42,11 @@ a:hover {
     padding: 6px 20px;
     background-color:#0070A0;
     border: none;
+}
+ul {
+    padding: 0;
+}
+.demo-header {
     margin-left: 31px;
 }
 .header_left img {
@@ -52,4 +57,57 @@ a:hover {
 }
 .sec1 ul {
     display: flex;
+}
+.main-heading {
+    font-family: "Fraunces", serif;
+    font-size: 58px;
+    color: #1F1F1F;
+    font-weight: 400;
+}
+.main-info-text {
+    color: #1F1F1F;
+    font-size: 20px;
+    width: 380px;
+}
+.main-info-left {
+    width: 525px;
+}
+.main-info {
+    margin: 70px auto ;
+    display: flex;
+    justify-content: space-between  ;
+}
+.trusted {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.trusted-logo img{
+    margin-right: 62px;
+}
+.fast, .buck, .safe {
+    width: 355px;
+    margin-right: 32px;
+    height:  250px;
+    padding:36px 38px ;
+}
+.fast h2, .buck h2, .safe h2{
+    font-family: "Fraunces", serif;
+    color: #1F1F1F;
+    font-weight: 400;
+}
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fast {
+    background-color: #FAEA73;
+}
+.buck {
+    background-color:#CCEFF6 ;
+}
+.safe {
+    background-color:#F7CEDC ;
 }
